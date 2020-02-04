@@ -1,0 +1,23 @@
+.nav-page-details{
+    text-transform: uppercase; 
+    text-align: center;
+    font-weight: 600;
+    color:black;
+}
+span{
+    color:gray;
+}
+h1{
+    font-family: 'Merriweather', serif; 
+    text-align: center;
+}
+.price{
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    color: gray;
+}
+p{
+    color: gray;
+    text-align: center;
+}
+

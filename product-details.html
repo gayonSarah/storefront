@@ -2,47 +2,77 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style-product.css">
         <meta charset="utf-8" />
         <title></title>
     </head>
 
     <body>
-        
-        <nav class="navbar navbar-lg border border-secondary border-top-0">
-            <a  href="#"><img src="img/LOGO.PNG"></a>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">HOME </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled dropdown-toggle" href="#">SHOP</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">JOURNAL</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link disabled  dropdown-toggle" href="#">MORE</a>
-                </li>
-            </ul>
-            <div class="navbar-nav navbar-right">
-                <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle disabled" data-toggle="dropdown" href="#">MY CART</a> 
-                </div>
-            </div>    
-        </nav>
-       
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                1 of 2
-                </div>
-                <div class="col">
-                2 of 2
-                </div>
-            </div>
-            <div class="row">
-               
+        <header>
+            <nav class="navbar navbar-lg font-weight-bold">
+                <a  href="#"><img src="img/LOGO.PNG"></a>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-dark" href="#">HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-dark dropdown-toggle" href="#">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-dark" href="#">JOURNAL</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link disabled text-dark dropdown-toggle" href="#">MORE</a>
+                    </li>
+                </ul>
+                <div class="navbar-nav navbar-right">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link text-dark dropdown-toggle disabled" data-toggle="dropdown" href="#">MY CART</a> 
+                    </div>
+                </div>    
+            </nav>
+            
+        </header>  
+        <hr>
+        <section>
+        <div class="container p-5">
+            <div class="nav-page-details">
+                <a href="#" class="nav-page-details">Home /</a>
+                <a href="#" class="nav-page-details ">Plates /</a>
+                <span class="nav-page-details text-secondary">Hand painted blue flat dish</span>
             </div>
         </div>
+        </section>
+        <br>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <img src="./img/hand-painted-blue-flat-dish.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                            <div>
+                                <H6 class="text-center text-muted">kiriko</H6>
+                            </div>
+                        <h1>Hand Painted Blue Flat Dish</h1>
+                        <div class="price">$28.00</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost</p>
+                        <hr>
+                        <div>
+                            <div>
+                                <input type="button"/>
+                            </div>
+                            <div>
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                            <div>
+                                <button class="btn btn-dark text-white">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

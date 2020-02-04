@@ -1,0 +1,50 @@
+
+.section1{
+    background-image:url('./img/plates-header.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.plate{
+    position:center;
+    width: 60%;
+}
+.bg-color{
+    background-color:#393935;
+    color:white;
+    text-align: center;
+    border-left:10px solid white;
+    border-right:10px solid white;
+    position:center;
+}
+hr{
+    height: 1px;
+    background-color:white;
+    border:none;
+}
+
+@media (max-height: 1024px){
+    .banner{
+        margin-bottom:0px;
+    }
+    .titlebanner{
+        padding-top: 0%;
+    }
+}
+h1{
+    font-family: 'Merriweather', serif;
+    padding-top:100px; 
+}
+.text-category{
+    text-transform: uppercase; 
+    text-align: center;
+    font-weight: 600;
+}
+.price{
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    color: gray;
+}
+p{
+    padding:50px;
+}
