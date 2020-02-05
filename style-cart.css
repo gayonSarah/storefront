@@ -1,0 +1,74 @@
+header{
+    background-color: white;
+}
+body{
+  background-color:#f6f6f6;  
+}
+h1{
+    font-family: 'Merriweather', serif;
+    padding-top:100px; 
+}
+#mycontainer{
+    background-color: white;
+    height: 100%;
+    text-transform: uppercase
+}
+.imgprod{
+    width: 120px;
+    height: 75px;
+}
+.groupbtn{
+    display:flex; 
+}
+
+#quantity{
+    background-color:#efefef;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin-right: 1.5px;
+    padding-top:5px; 
+}
+
+.groupbtnquantity{
+    display: inline-grid;
+}
+
+#btnplus{
+    background-color:#dbdbdb;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    border:none;
+}
+
+#btnmoins{
+    background-color:#dbdbdb;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    border:none;
+}
+
+.price{
+    font-family: 'Slabo 27px', serif;
+    color: gray;
+}
+#checkout{
+    width: 150px;
+    height: 38px;
+    background-color:#17171a;
+    color:white;
+    border:none;
+    margin-left: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+ }
+ .titlecolor{
+    color: gray;
+    letter-spacing: 1px;
+ }
+ .fontweight{
+    font-weight: 600;
+ }
+

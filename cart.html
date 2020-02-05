@@ -3,10 +3,147 @@
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="style-cart.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
         <title>Titre</title>
     </head>
 
     <body>
-    
+        <header>
+            <nav class="navbar navbar-lg font-weight-bold" >
+                <a  href="#"><img src="img/LOGO.PNG"></a>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-dark" href="#">HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-dark dropdown-toggle" href="#">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-dark" href="#">JOURNAL</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link disabled text-dark dropdown-toggle" href="#">MORE</a>
+                    </li>
+                </ul>
+                <div class="navbar-nav navbar-right">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link text-dark dropdown-toggle disabled" data-toggle="dropdown" href="#">MY CART</a> 
+                    </div>
+                </div>    
+            </nav>
+        </header> 
+        <section>
+            <div class="container pb-5">
+                <div class="text-center">
+                    <h1>Shoppping Cart</h1>
+                </div>
+            </div> 
+        </section>
+        <section>
+            <div class="container" id="mycontainer">
+                <div class="row titlecolor fontweight pt-5 pb-3 pl-5">
+                    <div class="col-lg-6">PRODUCT</div>
+                    <div class="col-lg-2">QUANTITY</div>
+                    <div class="col-lg-2">TOTAL</div>
+                    <div class="col-lg-2">ACTION</div>
+                </div>
+                <hr width="92%">
+                <div class="row pt-3 pb-4 pl-5">
+                    <div class="col-12 col-lg-6 ">
+                        <img src="./img/hand-painted-blue-flat-dish.jpg"  alt="product image" class="imgprod">
+                        <div class="groupbtnquantity">
+                            <div class="titlecolor fontweight">kiriko</div>
+                            <div>HAND PAINTED BLEU FLAT DISH</div>
+                            <div class="titlecolor">color:white</div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-lg-2">
+                        <div class="groupbtn">
+                            <div id="quantity" class="titlecolor">
+                                <div>1</div> 
+                            </div>
+                            <div class="groupbtnquantity">
+                                <button id="btnplus">+</button>
+                                <button id="btnmoins">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-lg-2 price">$28.00</div>
+                    <div class="col-4 col-lg-2 pl-5">
+                        <a href="#"><img src="./img/cross.PNG" alt="close" height="37px" width="37px"></a>
+                    </div> 
+                </div>
+                <hr width="92%">
+                <div class="row pt-3 pb-4 pl-5">
+                    <div class="col-12 col-lg-6">
+                        <img src="./img/mashiko-yaki-indigo-small-plate.jpg" alt="product image" class="imgprod">
+                        <div class="groupbtnquantity">
+                            <div class="titlecolor">kiriko</div>
+                            <div>MASHIKO-YAKI INDIGO SMALL PLATE</div> 
+                        </div>
+                    </div>
+                    <div class="col-4 col-lg-2">
+                        <div class="groupbtn">
+                            <div id="quantity">
+                                <div>1</div> 
+                            </div>
+                            <div class="groupbtnquantity">
+                                <button id="btnplus">+</button>
+                                <button id="btnmoins">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-lg-2 price">$28.00</div>
+                    <div class="col-4 col-lg-2 pl-5">
+                        <a href="#"><img src="./img/cross.PNG" alt="close" height="37px" width="37px"></a>
+                    </div>   
+                </div>
+                <hr width="92%">
+                <div class=" pt-3 pb-3 pl-5">
+                    <div class="row">
+                        <div class="col-lg-6">
+
+                        </div>
+                        <div class="col-lg-3 titlecolor">
+                            <div>CARTE OVERVIEW</div>
+
+                        </div>
+                        <div class="col-lg-3">
+
+                        </div>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-lg-6">
+
+                        </div>
+                        <div class="col-lg-3 titlecolor">
+                            <div>subtotal</div>
+
+                        </div>
+                        <div class="col-lg-3 pr-5 text-right titlecolor">$56.00</div>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-lg-6">
+
+                        </div>
+                        <div class="col-lg-3 titlecolor">
+                            <div>Total</div>
+
+                        </div>
+                        <div class="col-lg-3 pr-5 text-right">$56.00 cad</div>
+                    </div>
+                    </div>
+                <hr width="92%">
+                <div class="row pl-5">
+                    <div class="col-4">CONTINUE SHOPPING</div> 
+                    <div class="col-4"></div> 
+                    <div class="col-4">
+                        <button id="checkout">checkout ($56.00)</button>
+                    </div> 
+                </div>
+            </div>
+        </section>
     </body>
 </html>

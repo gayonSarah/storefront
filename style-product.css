@@ -1,12 +1,21 @@
+/*body*/
+/*Breadcrumb*/
+
 .nav-page-details{
     text-transform: uppercase; 
     text-align: center;
     font-weight: 600;
     color:black;
+    letter-spacing: 1px;
 }
-span{
-    color:gray;
+
+/*image size*/
+
+#imgprod{
+    width: 600px;
+    height: 400px;
 }
+
 h1{
     font-family: 'Merriweather', serif; 
     text-align: center;
@@ -16,8 +25,60 @@ h1{
     text-align: center;
     color: gray;
 }
+
 p{
     color: gray;
     text-align: center;
 }
+
+/*buttons*/
+.groupbtn{
+    display:flex;
+   padding-left:70px 
+}
+
+#quantity{
+    background-color:#efefef;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+#groupbtnquantity{
+    display: inline-grid;
+    margin-left: 3px;
+}
+
+#btnplus{
+    background-color:#dbdbdb;
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    border:none;
+    margin-bottom:1px; 
+}
+
+#btnmoins{
+    background-color:#dbdbdb;
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    border:none;
+    margin-top:1px; 
+}
+
+#btnadd{
+   width: 160px;
+   height: 60px;
+   background-color:#17171a;
+   color:white;
+   border:none;
+   margin-left: 8px;
+}
+
+
+ 
+
+
 
