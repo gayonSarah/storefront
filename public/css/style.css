@@ -1,6 +1,6 @@
 
 .section1{
-    background-image:url('./img/plates-header.jpg');
+    background-image:url('../img/plates-header.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
