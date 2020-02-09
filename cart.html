@@ -12,29 +12,39 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-lg font-weight-bold">
-                <a  href="#"><img src="./public/img/LOGO.PNG"></a>
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link disabled text-dark" href="#">HOME </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled text-dark dropdown-toggle" href="#">SHOP</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled text-dark" href="#">JOURNAL</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link disabled text-dark dropdown-toggle" href="#">MORE</a>
-                    </li>
-                </ul>
-                <div class="navbar-nav navbar-right">
-                    <div class="nav-item dropdown">
-                        <a class="nav-link text-dark dropdown-toggle disabled" data-toggle="dropdown" href="#">MY CART</a> 
+            <nav class="navbar navbar-expand-lg navbar-light font-weight-bold">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#burgerbtn" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a  href="#" ><img src="./public/img/LOGO.PNG"></a>
+                <div class="collapse navbar-collapse justify-content-center  pl-5" id="burgerbtn">
+                    <div class="container centerlinks">
+                        <div class="pl-5">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pl-5">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-dark" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link text-dark" href="#">SHOP</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="#">JOURNAL</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link disabled text-dark" href="#" tabindex="-1" aria-disabled="true">MORE</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>    
-            </nav>
+                </div>  
         
+                <div class="nav">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link text-dark dropdown-toggle disabled" data-toggle="dropdown" tabindex="-1" aria-disabled="true" href="#">MY CART</a> 
+                    </div>
+                </div> 
+                                    
+            </nav>
         </header>  
         <section>
             <div class="container pb-5">

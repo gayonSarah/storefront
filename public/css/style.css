@@ -5,6 +5,9 @@
     background-size: cover;
     background-position:center;
 }
+.centerlinks{
+    padding-left: 290px
+}
 .plate{
     position:center;
     width: 60%;
